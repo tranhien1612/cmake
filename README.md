@@ -14,7 +14,7 @@ Create static library:
 
 Using .a file:
 
-   g++ -L. -Wall -o main main.cpp -l:libhello.a
+   ```g++ -L. -Wall -o main main.cpp -l:libhello.a```
 
 Using .so file:
 
