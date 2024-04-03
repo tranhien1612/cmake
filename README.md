@@ -12,9 +12,11 @@ Create static library:
 
     ar -rc libhello.a hello.o
 
-Using .a file:
 
-   ```g++ -L. -Wall -o main main.cpp -l:libhello.a```
+Using .a file:
+    
+    g++ -L. -Wall -o main main.cpp -l:libhello.a
+
 
 Using .so file:
 
